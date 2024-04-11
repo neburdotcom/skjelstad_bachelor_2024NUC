@@ -12,12 +12,7 @@ from matplotlib.colors import Normalize
 import sys
 import glob
 
-#output_folder=r"C:\Users\ruskj\Desktop\BACHELOR\SCRIPTS\data\CSV\test_script"
-
-# Constants for API access and file paths
 API_URL = "https://api.greynoise.io/v2/noise/multi/context"
-  # Replace with your GreyNoise API key
-
 
 # shapefile https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
 shapefile_path = r'C:\Users\ruskj\Downloads\ne_10m_admin_0_countries\ne_10m_admin_0_countries.shp'  # Update with your actual path
@@ -115,12 +110,12 @@ def detect_network_scan(pcap_files, output_csv_dir, scan_length):
     combined_csv_path = os.path.join(output_csv_dir, "combined_longer_scan_results.csv")
     with open(combined_csv_path, 'w', newline='') as combined_csv_file:
         writer = csv.writer(combined_csv_file)
-        writer.writerow(['Date of Scan', 'Source IP', 'Network', 'Port', 'Distinct Destinations', 'Total Packets', 'Rate'])  # Write header once
+        writer.writerow(['Date of Scan', 'Source IP', 'Network', 'Port', 'Distinct Destinations', 'Total Packets', 'Rate'])  
 
         for csv_file in generated_csv_files:
             with open(csv_file, 'r') as infile:
                 reader = csv.reader(infile)
-                next(reader)  # Skip the header row
+                next(reader) 
                 for row in reader:
                     writer.writerow(row)
 
@@ -147,7 +142,7 @@ def chunked_ip_list(ip_set, chunk_size=1000):
 
 # Function to query GreyNoise for a list of IPs and return the results
 def query_greynoise(ips,API_KEY):
-    all_data = []  # List to store all results
+    all_data = [] 
     headers = {
         "Accept": "application/json",
         "Content-Type": "application/json",
@@ -193,7 +188,7 @@ def read_and_analyze_csv(greynoise_csv_input_path):
         for row in reader:
             total_entries += 1
             classifications[row['Classification']] += 1
-            if row['Tags']:  # Only add tags if they exist
+            if row['Tags']:  
                 for tag in row['Tags'].split(', '):
                     tags[tag] += 1
 
@@ -204,7 +199,7 @@ def read_and_analyze_csv(greynoise_csv_input_path):
 
     # Print most common tags percentages
     print("\nMost Common Tags Percentages (Top 10):")
-    for tag, count in tags.most_common(10):  # Now it gets the top 10 most common tags
+    for tag, count in tags.most_common(10):  
         print(f"{tag}: {count / total_entries * 100:.2f}%")
 
 #-----------------------------GREYNOISE WRITE BENIGN MALICIOUS CSV-------------------------
@@ -230,14 +225,14 @@ def write_benign_classification_rows(csv_file, output_csv):
                     writer.writerow(row)
 #-----------------------------GREYNOISE GET COUNTRIES AMOUNT-------------------------
 def count_countries_and_write_to_csv(csv_input_path, csv_output_path):
-    country_counts = Counter()  # Initialize a counter for tracking country counts
+    country_counts = Counter()  
 
     # Read the input CSV and count the countries
     with open(csv_input_path, mode='r', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            country = row['Country']  # Extract the country from the current row
-            country_counts[country] += 1  # Increment the count for the country
+            country = row['Country'] 
+            country_counts[country] += 1 
 
     # Write the counts to the output CSV
     with open(csv_output_path, mode='w', newline='') as csvfile:
@@ -312,7 +307,7 @@ if __name__ == '__main__':
     pcap_file_input  = input("Enter the folder where the pcap file is located, the program will take all the pcap file in the folder and analyse them!\n")
     pattern = os.path.join(pcap_file_input , '*.cap')
     pcapfiles = glob.glob(pattern)
-    if pcapfiles:  # If the list is not empty
+    if pcapfiles: 
         print(f"Found {len(pcapfiles)} pcap files.")
         for file in pcapfiles:
             print(file)
@@ -331,7 +326,6 @@ if __name__ == '__main__':
         hours = scan_length_minutes // 60
         time_label = f'{hours}_hours'
 
-    # Call the wrapper function with the user-specified parameters
     detect_network_scan_wrapper(pcapfiles, output_folder, scan_length)
     
     greynoise_csv_input_path = os.path.join(output_folder, 'combined_longer_scan_results.csv')
