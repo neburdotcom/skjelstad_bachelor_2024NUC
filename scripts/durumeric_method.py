@@ -17,7 +17,7 @@ OUTPUT_FOLDER = r'path_to_your_output_folder'  # Set the directory for output CS
 
 def detect_network_scan(pcap_dir, output_csv_dir):
     MIN_DESTINATIONS = 40
-    RATE_THRESHOLD = 0
+    RATE_THRESHOLD = 10
 
     pcap_files = [os.path.join(pcap_dir, f) for f in os.listdir(pcap_dir) if f.endswith('.pcap')]
     start_time = datetime.now()
