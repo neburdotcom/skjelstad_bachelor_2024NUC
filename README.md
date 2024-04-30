@@ -1,5 +1,5 @@
 # RUBEN SKJELSTAD BACHELOR PROJECT 2024
-##Supervisor: Barry Irwin
+## Supervisor: Barry Irwin
 
 This is the script used for my bachelors project 2024
 
