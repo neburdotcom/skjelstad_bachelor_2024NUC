@@ -1,3 +1,15 @@
+#RUBEN SKJELSTAD 30.04.2024
+#!#/usr/bin/python3
+
+#In the below variables shapefile_path you need to add the full path to the shapefile to corretly plot geographical identicly to the bachelor thesis.
+#Terminal will ask for input when needed at the start, after all is set up the script will run by itself, and report on when pcap files are done analysing. 
+
+
+#   MIN_DESTINATIONS = minimum destination a source IP has probed to be counted as a scan
+#   RATE_THRESHOLD = the minimuim packet rate to be deemed as a scan, in seconds. RATE_THRESHOLD of 10 would mean 10 packets per second
+#   MIN_DURATION = minimum overall duration of a scan minutes. 
+#   MAX_RATE_THRESHOLD = the maximum packet rate in seconds. MAX_RATE_THRESHOLD of 10 would mean a MAXIMUM 10 packets per second
+
 import dpkt
 import socket
 from collections import Counter
@@ -12,15 +24,11 @@ from matplotlib.colors import Normalize
 import sys
 import glob
 
-#output_folder=r"C:\Users\ruskj\Desktop\BACHELOR\SCRIPTS\data\CSV\test_script"
-
-# Constants for API access and file paths
+# Variable for API
 API_URL = "https://api.greynoise.io/v2/noise/multi/context"
-  # Replace with your GreyNoise API key
-
 
 # shapefile https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
-shapefile_path = r'C:\Users\ruskj\Downloads\ne_10m_admin_0_countries\ne_10m_admin_0_countries.shp'  # Update with your actual path
+shapefile_path = r''  # Update with your actual path for the shapefile for geographical heatmap
 
 #-----------------------------LOOK FOR SCAN IN PCAP-------------------------
 
