@@ -4,6 +4,12 @@
 #In the below variables PCAP_FOLDER and OUTPUT_FOLDER you need to add the folder to the PCAP files you want to use in finding scanning using the durumeric definition. And the OUTPUT folder for the CSV file.
 #The script will run by itself and report on when pcap files are done analysing. 
 
+#   MIN_DESTINATIONS = minimum destination a source IP has probed to be counted as a scan
+#   RATE_THRESHOLD = the minimuim packet rate to be deemed as a scan, in seconds. RATE_THRESHOLD of 10 would mean 10 packets per second
+
+#OUTPUT IS A CSV FILE with the headers= Date,Source IP,Network,Port,Distinct Destinations,Total Packets,Rate
+
+
 import dpkt
 import socket
 from collections import Counter
