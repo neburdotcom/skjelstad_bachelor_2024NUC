@@ -1,4 +1,4 @@
-There are two scripts oin this directory, one for durumeric definition of a scan and one for the case studies.
+There are three scripts on this directory, one for durumeric definition of a scan, one for the case studies and one for geographical plotting of countries.
 If you want to tweak the scripts behaviour you need to tweak on the below variables, a explonation is below.
 You need to have a API key for Greynoise.io for case_studies.py work as intended.
 
@@ -26,3 +26,13 @@ MAX_RATE_THRESHOLD = the maximum packet rate in seconds. MAX_RATE_THRESHOLD of 1
 
 Output of the script is a CSV file, and two geographical heatmaps, one for benign activity and one for malicious
 The csv has the headers= Date,Source IP,Network,Port,Distinct Destinations,Total Packets,Rate
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HEATMAP SCRIPT
+
+This script produces a geographical heatmap of the countries and counts you provide in the csv in the folder pasted in 'data_df'
+You need to download the shapefile in the comment below for the script to work as intended
+On line 37 you can change where the picture is saved along with the picture name. RIght now it just shows the plot, as plt.savefig is commented out.
+
+The CSV needs to have the headers 'Country,Count', and the countries need to be in full name. If you want the countries in a 2 letter code, change the 'left_on' on line 24 to 'ISO_A2'
