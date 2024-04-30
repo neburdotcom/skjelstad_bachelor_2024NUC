@@ -1,7 +1,8 @@
 #RUBEN SKJELSTAD 30.04.2024
 #!#/usr/bin/python3
 
-#Paste folder in variable "PCAP_FOLDER"
+#In the below variables PCAP_FOLDER and OUTPUT_FOLDER you need to add the folder to the PCAP files you want to use in finding scanning using the durumeric definition. And the OUTPUT folder for the CSV file.
+#The script will run by itself and report on when pcap files are done analysing. 
 
 import dpkt
 import socket
@@ -9,8 +10,6 @@ from collections import Counter
 import csv
 import os
 from datetime import datetime
-
-#In the below variables you need to add the folder to the PCAP files you want to use in finding scanning using the durumeric definition. And the OUTPUT folder for the CSV file.
 
 PCAP_FOLDER = r'path_to_your_pcap_folder'  # Set the directory containing PCAP files
 OUTPUT_FOLDER = r'path_to_your_output_folder'  # Set the directory for output CSV files
