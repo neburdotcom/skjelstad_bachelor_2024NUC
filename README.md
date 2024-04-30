@@ -1,4 +1,6 @@
-# skjelstad_bachelor_2024NUC
+# RUBEN SKJELSTAD BACHELOR PROJECT 2024
+##Supervisor: Barry Irwin
+
 This is the script used for my bachelors project 2024
 
 In the scripts folder there are 2 scripts, one for the Durumeric Definition of a scan, and one for the case studies done in Chapter 5.
