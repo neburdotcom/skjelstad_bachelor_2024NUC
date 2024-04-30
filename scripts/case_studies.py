@@ -10,6 +10,9 @@
 #   MIN_DURATION = minimum overall duration of a scan minutes. 
 #   MAX_RATE_THRESHOLD = the maximum packet rate in seconds. MAX_RATE_THRESHOLD of 10 would mean a MAXIMUM 10 packets per second
 
+
+#OUTPUT IS A CSV FILE with the headers= Date,Source IP,Network,Port,Distinct Destinations,Total Packets,Rate
+
 import dpkt
 import socket
 from collections import Counter
