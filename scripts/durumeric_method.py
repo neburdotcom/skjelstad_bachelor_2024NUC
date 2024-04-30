@@ -1,3 +1,8 @@
+#RUBEN SKJELSTAD 30.04.2024
+#!#/usr/bin/python3
+
+#Paste folder in variable "PCAP_FOLDER"
+
 import dpkt
 import socket
 from collections import Counter
@@ -5,10 +10,16 @@ import csv
 import os
 from datetime import datetime
 
-def detect_network_scan(pcap_files, output_csv_dir):
+#In the below variables you need to add the folder to the PCAP files you want to use in finding scanning using the durumeric definition. And the OUTPUT folder for the CSV file.
+
+PCAP_FOLDER = r'path_to_your_pcap_folder'  # Set the directory containing PCAP files
+OUTPUT_FOLDER = r'path_to_your_output_folder'  # Set the directory for output CSV files
+
+def detect_network_scan(pcap_dir, output_csv_dir):
     MIN_DESTINATIONS = 40
     RATE_THRESHOLD = 0
 
+    pcap_files = [os.path.join(pcap_dir, f) for f in os.listdir(pcap_dir) if f.endswith('.pcap')]
     start_time = datetime.now()
     print(f"Script started at: {start_time}")
 
@@ -83,8 +94,6 @@ def detect_network_scan(pcap_files, output_csv_dir):
                 })
 
         generated_csv_files.append(output_csv_path)
-
-        # Print after finishing each pcap file
         print(f"Finished analyzing {pcap_file} at: {datetime.now()}")
 
     # Combine all CSV files
@@ -104,6 +113,5 @@ def detect_network_scan(pcap_files, output_csv_dir):
     print(f"Script ended at: {end_time}")
     print(f"Total execution time: {end_time - start_time}")
 
-detect_network_scan([
-#add path to pcap files
-], r"C:\Users\test\trest\BACHELOR\sample_foler") #Add output folder
+# Call the function with the directory paths
+detect_network_scan(PCAP_FOLDER, OUTPUT_FOLDER)
