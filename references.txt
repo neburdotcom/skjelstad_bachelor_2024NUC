@@ -1,0 +1,256 @@
+References
+Anand, A., Kallitsis, M., Sippe, J., & Dainotti, A. (2023, May 11). Aggressive Internet-Wide Scanners:
+Network Impact and Longitudinal Characterization. arXiv: 2305.07193 [cs].
+
+Aniello, L., Lodi, G., & Baldoni, R. (2011). Inter-domain stealthy port scan detection through complex event
+processing. Proceedings of the 13th European Workshop on Dependable Computing, 67–72. https:
+//doi.org/10.1145/1978582.1978597
+
+Barnett, R. J., & Irwin, B. (2008). Towards a taxonomy of network scanning techniques. Proceedings of
+the 2008 Annual Research Conference of the South African Institute of Computer Scientists and
+Information Technologists on IT Research in Developing Countries: Riding the Wave of Technology,
+1–7. https://doi.org/10.1145/1456659.1456660
+
+Bennett, C., Abdou, A., & Van Oorschot, P. C. (2021). Empirical Scanning Analysis of Censys and Shodan
+[Accessed: 2023-10-18]. Workshop on Measurements, Attacks, and Defenses for the Web. https:
+//doi.org/10.14722/madweb.2021.23009
+
+Bortoluzzi, F., Irwin, B., Beiler, L. S., & Westphall, C. M. (2023). Cloud telescope: A distributed architecture
+for capturing internet background radiation. 2023 IEEE 12th International Conference on Cloud
+Networking (CloudNet), 77–85. https://doi.org/10.1109/CloudNet59005.2023.10490018
+
+Bortoluzzi, F., Irwin, B., & Westphall, C. M. (2023). A cloud-native framework for globally distributed capture
+and analysis of internet background radiation, 1–4. https://doi.org/10.23919/CISTI58278.2023.
+10211290
+
+Bou-Harb, E., Debbabi, M., & Assi, C. (2013). Cyber scanning: A comprehensive survey. IEEE communica-
+tions Surveys & Tutorials, 16(3), 1496–1519. https://doi.org/10.1109/SURV.2013.102913.00020
+
+Boulanger, A. (1998). Catapults and grappling hooks: The tools and techniques of information warfare
+[Accessed: 2023-10-16]. IBM Systems Journal, 37 (1), 106–114. https://doi.org/10.1147/sj.371.
+0106
+
+Bruce, M., Lusthaus, J., Kashyap, R., Phair, N., & Varese, F. (2024). Mapping the global geography of
+cybercrime with the world cybercrime index. PLOS ONE, 19(4), 1–16. https://doi.org/10.1371/
+journal.pone.0297312
+
+Censys. (2023a). About Censys - Censys [Accessed: 2024-01-16]. https://about.censys.io/
+Censys. (2023b, December). Search pricing - Censys [Accessed: 2024-01-16]. https://censys.com/search-
+pricing/
+
+Costantino, G., & Matteucci, I. (2019). Candy cream - hacking infotainment android systems to command
+instrument cluster via can data frame. 2019 IEEE International Conference on Computational
+Science and Engineering (CSE) and IEEE International Conference on Embedded and Ubiquitous
+Computing (EUC), (19), 476–481. https://doi.org/10.1109/CSE/EUC.2019.00094
+
+CriminalIP. (2024, January). Ai spera | criminal ip [Accessed: 2024-03-18]. https://www.criminalip.io/about/
+aispera
+
+Data Center Map. (2024). Western europe data centers [Accessed: 2024-04-20]. https://www.datacentermap.
+com/western-europe/
+
+Durumeric, Z., Bailey, M., & Halderman, J. A. (2014). An Internet-Wide view of Internet-Wide scanning. 23rd
+USENIX Security Symposium (USENIX Security 14), 65–78. https://www.usenix.org/conference/
+usenixsecurity14/technical-sessions/presentation/durumeric
+
+Durumeric, Z., Wustrow, E., & Halderman, J. A. (2013). Zmap: Fast internet-wide scanning and its security
+applications, 605–620. https://www.usenix.org/system/files/conference/usenixsecurity13/sec13-
+paper_durumeric.pdf
+
+Farmer, D., & Venema, W. Z. (2000). Improving the security of your site by breaking into it. https://www.dcs.
+ed.ac.uk/home/rah/Resources/Security/admin_guide_to_cracking.pdf
+
+Ghiëtte, V. (2016). Classifying scanners: Mapping their behaviour [Master’s thesis, Delft University of Tech-
+nology]. http://resolver.tudelft.nl/uuid:8b842a9e-563e-4a44-b46f-becfb6e8af18
+
+Graham, R. (2013, September). Masscan: the entire Internet in 3 minutes [Accessed: 2024-01-16]. https:
+//blog.erratasec.com/2013/09/masscan-entire-internet-in-3-minutes.html
+
+GreyNoise. (2023). Understanding riot [Accessed: 2024-04-22]. https://docs.greynoise.io/docs/riot-data
+
+Greynoise. (2022). Greynoise intelligence dives deep into the cybersecurity landscape with its 2022 massexploitation report 
+[Accessed: 2024-01-23]. https://www.greynoise.io/press/greynoise-intelligence-cybersecurity-landscape-2022-mass-exploitation-report
+
+Greynoise. (2023a). Using the greynoise enterprise api [Accessed: 2024-01-25]. https://docs.greynoise.io/
+docs/using-the-greynoise-api
+
+Greynoise. (2023b). Using the greynoise visualizer [Accessed: 2024-01-25]. https://docs.greynoise.io/docs/
+using-the-greynoise-visualizer
+
+Greynoise. (2024). GreyNoise | Product and features [Accessed: 2024-01-23]. https://www.greynoise.io/
+greynoise-product
+
+Hassan Kilavo, S. I. M., & Dudu, R. G. (2023). Securing relational databases against security vulnerabilities:
+A case of microsoft sql server and postgresql. Journal of Applied Security Research, 18(3), 421–
+435. https://doi.org/10.1080/19361610.2021.2006032
+
+Hendricks, W. (2019). An Analysis of Internet Background Radiation within an African IPv4 Netblock [Mas-
+ter’s thesis, Rhodes University]. http://hdl.handle.net/10962/103791
+
+Higgins, M. (2011). Julian assange: Wikileaks founder: Wiki leaks founder. ABDO.
+
+HP Wolf Security. (2019, June 11). Mapping out a malware distribution network [Accessed: 2024-03-04].
+https://threatresearch.ext.hp.com/mapping-malware-distribution-network/
+
+IANA. (2023). Service names and port numbers. Internet Assigned Numbers Authority. https://www.iana.
+org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
+
+Internet Systems Consortium, Inc. (2024). About us [Accessed: 2024-02-01]. https://www.isc.org/about/
+
+Irwin, B. (2013). A baseline study of potentially malicious activity across five network telescopes. 2013
+Cyber Conflict (CyCon), 5, 18 pages. https://doi.org/https://catalog.caida.org/paper/2013_1_irwin_
+b_researchgate_6547386
+
+Irwin, B., & van Riel, J.-P. (2007). Inetvis: A graphical aid for the detection and visualisation of network
+scans. Conference on Vizualisation Security (VizSec2007). https://doi.org/https://www.cs.ru.ac.za/
+research/g02v2468/publications/Irwin-VizSEC2007_draft.pdf
+
+Irwin, B. (2011, January). A framework for the application of network telescope sensors in a global IP
+network [Doctoral dissertation, Rhodes University]. http://hdl.handle.net/10962/d1004835
+
+Jafarian, J. H., Abolfathi, M., & Rahimian, M. (2023). Detecting Network Scanning Through Monitoring
+and Manipulation of DNS Traffic [Accessed: 2023-09-18]. IEEE Access, 11, 20267–20283. https:
+//doi.org/10.1109/ACCESS.2023.3250106
+
+Jagamogan, R. S., Ismail, S. A., Hassan, N. H., & Abas, H. (2022). Penetration testing procedure using
+machine learning. 2022 4th International Conference on Smart Sensors and Application (ICSSA),
+58–63. https://doi.org/10.1109/ICSSA54161.2022.9870951
+
+Jayasuryapal, G., Pranay, P. M., Kaur, H., et al. (2021). A survey on network penetration testing. 2021 2nd
+International Conference on Intelligent Engineering and Management (ICIEM), 373–378. https :
+//doi.org/10.1109/ICIEM51511.2021.9445321
+
+Jenani, M. (2017). Network security, a challenge [Special Issue: TECHSA-17, Government Arts College for
+Women, Ramanathapuram]. International Journal of Advanced Networking & Applications, 08(05),
+120–123. https://www.ijana.in/Special%20Issue/TPID28.pdf
+
+Kaspersky. (2016). What are IOT search engines shodan and censys and what are they capable of [Ac-
+cessed: 2024-01-16]. https://www.kaspersky.com/blog/shodan-censys/11430/
+
+Khan, H. M. A., Inayat, U., Zia, M. F., Ali, F., Jabeen, T., & Ali, S. M. (2021). Voice over internet protocol:
+Vulnerabilities and assessments. 2021 International Conference on Innovative Computing (ICIC),
+1–6.
+
+Khan, M. T., DeBlasio, J., Voelker, G. M., Snoeren, A. C., Kanich, C., & Vallina-Rodriguez, N. (2018). An
+empirical analysis of the commercial vpn ecosystem. Proceedings of the Internet Measurement
+Conference 2018, 443–456. https://doi.org/10.1145/3278532.3278570
+
+Malvuln. (2022, February). MVID-2022-0499 [Accessed: 2024-03-01]. https : / / malvuln . com / advisory /
+584bc06128469423f9e50e8a359d18ac_B.txt
+
+Marín, G., Caasas, P., & Capdehourat, G. (2021). Deepmal - deep learning models for malware traffic
+detection and classification. In P. Haber, T. Lampoltshammer, M. Mayr, & K. Plankensteiner (Eds.),
+Data science – analytics and applications (pp. 105–112). Springer Fachmedien Wiesbaden. https:
+//doi.org/https://doi.org/10.1007/978-3-658-32182-6_16
+
+Marksteiner, S., Jandl-Scherf, B., & Lernbeiß, H. (2020). Automatically Determining a Network Reconnais-
+sance Scope Using Passive Scanning Techniques [Accessed: 2023-09-18]. In X.-S. Yang, S. Sher-
+ratt, N. Dey, & A. Joshi (Eds.), Fourth International Congress on Information and Communication
+Technology (pp. 117–127, Vol. 1027). Springer Singapore. https://doi.org/10.1007/978- 981- 32-
+9343-4_11
+
+Mazel, J., Fontugne, R., & Fukuda, K. (2017). Profiling internet scanners: Spatiotemporal structures and
+measurement ethics. 2017 Network Traffic Measurement and Analysis Conference (TMA), 1–9.
+https://doi.org/10.23919/TMA.2017.8002909
+
+Moore, D., Shannon, C., Voelker, G., & Savage, S. (2004, June). Network Telescopes: Technical Report
+(tech. rep.). Cooperative Association for Internet Data Analysis (CAIDA). https://catalog.caida.org/
+paper/2004_tr_2004_04
+
+Nkhumeleni, T. M. (2014). Correlation and comparative analysis of traffic across five network telescopes
+[Master’s thesis, Rhodes University]. http://hdl.handle.net/10962/d1011668
+
+NVD - CVE. (2017, March). Nvd - cve-2017-17215 [Accessed: 2024-03-04]. https://nvd.nist.gov/vuln/detail/
+CVE-2017-17215
+
+NVD - CVE. (2023, June). Cve-2023-27997 [Accessed: 2024-03-01]. https://nvd.nist.gov/vuln/detail/CVE-
+2023-27997
+
+Ongun, T., Spohngellert, O., Miller, B., Boboila, S., Oprea, A., Eliassi-Rad, T., Hiser, J., Nottingham, A.,
+Davidson, J., & Veeraraghavan, M. (2021). Portfiler: Port-level network profiling for self-propagating
+malware detection. 2021 IEEE Conference on Communications and Network Security (CNS), 182–
+190.
+
+Orebaugh, A., & Pinkard, B. (2011). Nmap in the enterprise: Your guide to network scanning. Elsevier.
+https://doi.org/10.1016/B978-1-59749-241-6.X0001-5
+
+Pearson, D. T., & Irwin, B. (2018, August). OpenDTI: A threat intelligence collation and dissemination
+framework (tech. rep.). https://doi.org/10.13140/RG.2.2.30907.18729
+
+Postel, J. (1981, September). Internet Protocol (tech. rep. No. 791). https://doi.org/10.17487/RFC0791
+
+Postel, J., & Reynolds, J. (1992, July). Assigned Numbers (tech. rep. No. 1340). https://doi.org/10.17487/
+RFC1340
+
+Putu, I., Pratama, A. E., Agus, P., & Pratama, E. (2020). Tcp syn flood (dos) attack prevention using spi
+method on csf: A poc. Bulletin of Computer Science and Electrical Engineering, 1(2), 63–72. https:
+//doi.org/https://doi.org/10.25008/bcsee.v1i2.7
+
+Quittner, J. (1995, April). The Devil In The Network [Accessed: 2023-11-02]. https://content.time.com/time/
+subscriber/article/0,33009,982835,00.html
+
+Raikar, M. M., & Meena, S. (2021). Ssh brute force attack mitigation in internet of things (iot) network: An
+edge device security measure. 2021 2nd International Conference on Secure Cyber Computing and
+Communications (ICSCCC), 72–77. https://doi.org/doi={10.1109/ICSCCC51823.2021.9478131}
+
+Rapid7. (2017, August). Scanning All The Things [Accessed: 2024-01-16]. https://www.rapid7.com/blog/
+post/2013/09/26/internet-wide-probing-rapid7-sonar/
+
+Rapid7. (2019). Attack surface security monitoring with insightvm and project sonar [Accessed: 2024-01-
+16]. https://www.rapid7.com
+
+Rapid7. (2023). About open data | Rapid7 [Accessed: 2023-10-23]. https://opendata.rapid7.com/about/
+
+Richter, P., & Berger, A. (2019). Scanning the Scanners: Sensing the Internet from a Massively Distributed
+Network Telescope [Accessed: 2023-09-14]. Proceedings of the Internet Measurement Confer-
+ence, 144–157. https://doi.org/10.1145/3355369.3355595
+
+Rudman, L., & Irwin, B. (2015). Characterization and analysis of ntp amplification based ddos attacks. 2015
+Information Security for South Africa (ISSA), (14), 1–5. https://doi.org/10.1109/ISSA.2015.7335069
+
+Shadowserver Foundation. (2024). Who we are | The Shadowserver Foundation [Accessed: 2024-01-16].
+https://www.shadowserver.org/who-we-are/
+
+Shodan. (2022). What is Shodan? - Shodan Help Center [Accessed: 2024-01-16]. https://help.shodan.io/
+the-basics/what-is-shodan
+
+Snehi, M., & Bhandari, A. (2021). Apprehending mirai botnet philosophy and smart learning models for
+iot-ddos detection. 2021 8th International Conference on Computing for Sustainable Global Devel-
+opment (INDIACom), 501–505.
+
+Susanto, C. O. N., Rizko, K. N. F., & Purbohadi, D. (2020). Security assessment using nessus tool to
+determine security gaps on the repository web application in educational institutions. Emerging
+Information Science and Technology, 1(2), 58–62.
+
+Tanakas, P., Ilias, A., & Polemi, N. (2021). A novel system for detecting and preventing sql injection and
+cross-site-script. 2021 International Conference on Electrical, Computer and Energy Technologies
+(ICECET), 1–6.
+
+Trapkickin, R. (2015). Who is scanning the internet. FI & IITM SS 15, 81–88. https://doi.org/10.2313/NET-
+2015-09-1_11
+
+University of Michigan. (2018). Censys, mapping the internet one device at a time [Accessed: 2024-01-16].
+https://innovationpartnerships.umich.edu/stories/censys-mapping-the-internet-one-device-at-a-
+time/
+
+Upadhya, A. (2020). A survey on different port scanning methods and the tools used to perform them. IJRASET, 8, 3018–3024. https://doi.org/10.22214/ijraset.2020.5505
+
+van Riel, J.-P., & Irwin, B. (2006). Inetvis, a visual tool for network telescope traffic analysis. 4th International
+Conference on Computer Graphics, Virtual Reality, Visualisation and Interaction in Africa, 85–89.
+https://doi.org/10.1145/1108590.1108604
+
+Wan, G., Izhikevich, L., Adrian, D., Yoshioka, K., Holz, R., Rossow, C., & Durumeric, Z. (2020). On the Origin
+of Scanning: The Impact of Location on Internet-Wide Scans [Accessed: 2023-09-14]. Proceedings
+of the ACM Internet Measurement Conference, 662–679. https://doi.org/10.1145/3419394.3424214
+
+Wang, Y., Wen, S., Xiang, Y., & Zhou, W. (2013). Modeling the propagation of worms in networks: A survey.
+IEEE Communications Surveys & Tutorials, 16(2), 942–960.
+
+Wu, P., Cui, Y., Wu, J., Liu, J., & Metz, C. (2013, Autumn). Transition from IPv4 to IPv6: A State-of-the-Art
+Survey [Accessed: 2023-09-18]. IEEE Communications Surveys & Tutorials, 15(3), 1407–1424.
+https://doi.org/10.1109/SURV.2012.110112.00200
+
+Yamada, R., & Goto, S. (2013). Using abnormal TTL values to detect malicious IP packets [Accessed:
+2023-09-21]. Proceedings of the Asia-Pacific Advanced Network, 34, 27. https://doi.org/10.7125/
+APAN.34.4
+ 
